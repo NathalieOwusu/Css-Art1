@@ -40,7 +40,7 @@ border: 6px solid #ff88ed;
   border: 2px solid #ff88ed;
   border-radius: 100em;
   padding: 10px 25px;
-  margin-left: 6vh;
+  margin-left: 11vh;
   text-align: center;
   background-color: rgb(247, 199, 207);
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
@@ -73,19 +73,8 @@ h1{
 }
 
 
-.intro{
-  text-align: center;
-  left: 10px;
-  position: relative;
-  padding-left: 20px;
-  text-indent: 50px;
-}
-.intro1{
-  text-align: center;
-  left: 10px;
-  position: relative;
-  padding-left: 10px;
-}
+
+
 p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;

@@ -1,3 +1,6 @@
+body{
+  background-color:rgb(220, 175, 247);
+}
 
 nav li {
 padding: 20px;
@@ -37,5 +40,11 @@ transform: translateY(4px);
   bottom:30px;
   transform: rotate(90deg);
 }
-
+h1{
+  color:blue
+}
+#resume-btn{
+  background: linear-gradient(to right, #5fdaec, rgb(195, 255, 0));
+  color:Purple;
+}
 
