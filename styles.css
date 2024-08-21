@@ -2,22 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Poiret+One&display=swap');
 
 body{
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #ffd4fd;
+}
+
+.header{
+  margin: -100vh auto;
   
 }
-
- 
-
 img{
   position:relative;
-  margin-left: 10vh;
-}
 
+}
+.ring{
+  margin: 0;
+  padding:0;
+  position: relative;
+  bottom:-157vh;
+  left:-25vh;
+  background-blend-mode: overlay;
+}
+.ring2{
+  position: relative;
+  bottom:-102vh;
+  left:-25vh;
+  
+  
+}
 #bkg{
   
   background-color: #EACBC8;
@@ -25,17 +39,17 @@ img{
   background-position: 10px;
   background-size: 40px 40px;
   border:5px solid purple;
-  border-radius: 18%;
+  border-radius: 10%;
   box-shadow: rgba(240, 46, 170, 0.4) 30px 0px, rgba(240, 46, 170, 0.3) 60px 0px, rgba(240, 46, 169, 0.372) 70px 0px, rgba(240, 46, 170, 0.1) 80px 0px, rgba(240, 46, 170, 0.05) 90px 0px;
 }
 
 .btn{
   font-size: 2em;
   font-family: "Matemasie", sans-serif;
-  color: #ff00d49f;
+  color:#9c0084;
   position: relative;
-  bottom: 45vh;
-  left: 35vh;
+  bottom: 48vh;
+  left: 30vh;
   border: 2px solid #ff88ed;
   border-radius: 100em;
   padding: 10px 25px;
@@ -51,7 +65,7 @@ img{
 
 .btn:hover{
   cursor: pointer;
-  background-color: rgb(192, 125, 255);
+  background-color: rgb(213, 168, 254);
   
    
 }
