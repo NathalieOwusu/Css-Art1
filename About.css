@@ -1,71 +1,139 @@
- 
-@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Poiret+One&display=swap');
-
-body{
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-  background-color: #c8eace;
-  /* position: fixed; */
+.pink-hibiscus-flower{
+  pointer-events: none;
+  position:absolute;
+  left:1vh;
+  top:3vh;
+  
+  transform: rotate(-0.25turn);
  
 }
-.header{
-  margin: -100vh auto;
+.pink-hibiscus-flower2{
+  pointer-events: none;
+  position:absolute;
+  right:86vh;
+  bottom:20px;
+  transform: rotate(90deg);
+
+}
+body{
+   background-color: #c8eace;
+   position: fixed;
   
 }
-img{
-  position:relative;
+h1{
+  display: block;
+  margin: 0 auto;
+  font-size: 75px;
+  font-family:cursive;
+  position: absolute;
+  left:103vh;
+  color: #e7a1f3;
+  
+}
+.wavy-line:before{
+   content: "~~~~~~~~~~~~~~~~~";
+   font-size: 0.8em;
+  font-weight: 700;
+  font-family: Times New Roman, Serif;
+  color: rgba(0, 255, 132, 0.551);
+  width: 100%;
+  position: absolute;
+  top: 80px;
+  left: 4px;
+  overflow: hidden;
 
 }
-.ring{
+p{
+  color:purple;
+ text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 5%;
+  text-align:center;
+  left:95vh;
+  bottom:20vh;
   position: relative;
-  bottom:-3vh;
-  left:-6vh;
-  background-blend-mode: overlay;
+  width:600px;
+  line-height: 25px;
 }
 
-#bkg{
-  background-color: #EACBC8;
+img{
+ border-radius: 10%;
+ display: block;
+ margin: 0 auto;
+}
+ hr{
+    border-top: 5px solid;
+    position:relative;
+    bottom:12vh;
+    border-color: rgb(85, 198, 85)
+ }
+
+.p-text1 {
+  background-color: #6e9cbc;
+  color:#c8eace
+}
+.intro-head{
+  background-color: #b89819;
+  color:orange;
+}
+.third-text{
+background-color: #b15055;
+color: rgb(141, 1, 141);
+
+}
+.fourth-text{
+  background-color: #A1A86A;
+  color:#1e00ff
+}
+.image img{
+  border: 5px solid #B97EC4;
+  transform: scale(1.1);
+}
+.image img{
+  border: 20px solid #6d157d;
+  display: flex;
+  position:relative;
+  top:30vh;
+  border-style: dotted;
+  width:450px;
+ 
+}
+.left{
+  height:100vh;
+  display:grid;
+   background-color: #EACBC8;
   background-image: linear-gradient(90deg, #aa67c280 20px, transparent 20px), linear-gradient(#aa67c280 20px, transparent 20px);
-  background-position: 10px;
   background-size: 45px 45px;
   border:5px solid purple;
   border-radius: 10%;
-  box-shadow: rgba(240, 46, 170, 0.4) 30px 0px, rgba(240, 46, 170, 0.3) 60px 0px, rgba(240, 46, 169, 0.372) 70px 0px, rgba(240, 46, 170, 0.1) 80px 0px, rgba(240, 46, 170, 0.05) 90px 0px;
+  width:700px;
+  /* position: fixed; */
+}
+.right{
+  display: grid;
+  background-color:  #af689e;
+  border-radius: 10%;
+  float: right;
+  width:700px;
+  height:100vh;
+  border:5px solid purple;
+  /* position: fixed; */
 }
 
-h1{
-   font-family: "Matemasie", sans-serif;
-   font-size: 40px;
-  font-weight: 400;
-  font-style: normal;
-  position:absolute;
-  bottom: 75vh;
-  text-align: center;
-}
-
-
-
-
-p{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 10px;
-}
-ul li{
-  display: flex;
-  flex-direction:row-reverse;
-  float:right;
-
- 
-}
-
-nav li {
-padding: 20px;
-text-align: center;
+.ring{
 margin: 0 auto;
- transform: rotate(90deg);
+text-align: center;
+position: fixed;
+left:84vh;
+bottom:-30px;
+
 }
+
+ ul{
+ list-style: none;
+}
+
+
 .btn1{
   margin: 0 auto;
   font-size: 1em;
@@ -74,15 +142,15 @@ margin: 0 auto;
   position: relative;
   border: 2px solid #b15055;
   border-radius: 100em;
-  top: 2vh;
-  left:5vh;
+  bottom: 85vh;
+  left:144vh;
   padding: 10px 25px;
   margin-left: 18vh;
   text-align: center;
   background-color: #DF696E;
-  /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
   transition-duration: 0.3s;
-    
+  transform: rotate(90deg);
 }
 .btn1:active{  
 box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
@@ -98,15 +166,16 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   font-family: "Matemasie", sans-serif;
   color:#ffffff;
   position: relative;
-  bottom: 19vh;
-  left: 15vh;
+  bottom: 80vh;
+  left: 144vh;
+  transform: rotate(90deg);
   border: 2px solid#bd8b8d;
   border-radius: 100em;
   padding: 10px 25px;
   margin-left: 18vh;
   text-align: center;
   background-color: #FEC2C4;
-  /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
   transition-duration: 0.3s;
     
 }
@@ -124,15 +193,16 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   font-family: "Matemasie", sans-serif;
   color:#fefefe;
   position: relative;
-  top: -53.5vh;
-  left: 27vh;
+  top: -73.5vh;
+  left: 143vh;
+  transform: rotate(90deg);
   border: 2px solid #757b4c;
   border-radius: 100em;
   padding: 10px 25px;
   margin-left: 18vh;
   text-align: center;
   background-color: #A1A86A;
-  /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
   transition-duration: 0.3s;
     
 }
@@ -150,15 +220,16 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   font-family: "Matemasie", sans-serif;
   color:#ffffff;
   position: relative;
-  top: -90vh;
-  left:52vh;
+  top: -67vh;
+  left:143.3vh;
+  transform: rotate(90deg);
   border: 2px solid#b89819;
   border-radius: 100em;
   padding: 10px 25px;
   margin-left: 18vh;
   text-align: center;
   background-color: #E0BB22;
-  /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
   transition-duration: 0.3s;
     
 }
@@ -184,7 +255,7 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   margin-left: 10vh;
   text-align: center;
   background-color: #88C0E8;
-  /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
   transition-duration: 0.3s;
     
 }
@@ -210,8 +281,7 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   margin-left: 18vh;
   text-align: center;
   background-color: #DF696E;
-  transform: translateY(10px);
-  /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
   transition-duration: 0.3s;
     
 }
@@ -224,4 +294,8 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   cursor: pointer;
   background-color: rgb(213, 168, 254);
 }
+
+
+
+
 
