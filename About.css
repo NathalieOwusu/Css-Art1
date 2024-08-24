@@ -16,7 +16,7 @@
 
 }
 body{
-   background-color: #c8eace;
+   background-color: #c89bbe;
    position: fixed;
   
 }
@@ -27,7 +27,7 @@ h1{
   font-family:cursive;
   position: absolute;
   left:103vh;
-  color: #e7a1f3;
+  color: #EFC75E;
   
 }
 .wavy-line:before{
@@ -35,7 +35,7 @@ h1{
    font-size: 0.8em;
   font-weight: 700;
   font-family: Times New Roman, Serif;
-  color: rgba(0, 255, 132, 0.551);
+  color: rgba(38, 255, 0, 0.551);
   width: 100%;
   position: absolute;
   top: 80px;
@@ -57,7 +57,7 @@ p{
 }
 
 img{
- border-radius: 10%;
+ border-radius: 0%;
  display: block;
  margin: 0 auto;
 }
@@ -95,22 +95,22 @@ color: rgb(141, 1, 141);
 .left{
   height:100vh;
   display:grid;
-   background-color: #EACBC8;
-  background-image: linear-gradient(90deg, #aa67c280 20px, transparent 20px), linear-gradient(#aa67c280 20px, transparent 20px);
+   background-color: #81A4A3;
+  background-image: linear-gradient(90deg, #aa67c280 20px, transparent 20px), linear-gradient(#EFC75F 20px, transparent 20px);
   background-size: 45px 45px;
-  border:5px solid purple;
+  border:5px solid  rgb(128, 200, 106);
   border-radius: 10%;
   width:700px;
   /* position: fixed; */
 }
 .right{
   display: grid;
-  background-color:  #af689e;
+  background-color:  #e88493;
   border-radius: 10%;
   float: right;
   width:700px;
   height:100vh;
-  border:5px solid purple;
+  border:5px solid  rgb(128, 200, 106);
   /* position: fixed; */
 }
 
@@ -120,6 +120,7 @@ text-align: center;
 position: fixed;
 left:84vh;
 bottom:-30px;
+
 
 }
 
