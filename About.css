@@ -1,20 +1,4 @@
-/* .pink-hibiscus-flower{
-  pointer-events: none;
-  position:absolute;
-  left:1vh;
-  top:3vh;
-  
-  transform: rotate(-0.25turn);
- 
-}
-.pink-hibiscus-flower2{
-  pointer-events: none;
-  position:absolute;
-  right:86vh;
-  bottom:20px;
-  transform: rotate(90deg);
 
-} */
 body{
    background-color: #ac93de;
    position: fixed;
@@ -63,9 +47,13 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 .list li:hover {
   background-color: #f0f0f0;
   -webkit-transition: all 0.2s;
-  -moz-transition:    all 0.2s;
-  -ms-transition:     all 0.2s;
-  -o-transition:      all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 .lines {
   border-left: 2px solid #ff0606;
@@ -89,30 +77,9 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 
 
-h1{
-  display: block;
-  margin: 0 auto;
-  font-size: 75px;
-  font-family:cursive;
-  position: absolute;
-  left:103vh;
-  color: #EFC75E;
-  
-}
 
 
-p{
-  color:purple;
- text-transform: uppercase;
-  font-size: 20px;
-  border-radius: 5%;
-  text-align:center;
-  left:95vh;
-  bottom:20vh;
-  position: relative;
-  width:600px;
-  line-height: 25px;
-}
+
 
 img{
  border-radius: 10%;
@@ -120,27 +87,10 @@ img{
  margin: 0 auto;
 }
 
-.p-text1 {
-  background-color: #6e9cbc;
-  color:#c8eace
-}
-.intro-head{
-  background-color: #b89819;
-  color:orange;
-}
-.third-text{
-background-color: #b15055;
-color: rgb(141, 1, 141);
 
-}
-.fourth-text{
-  background-color: #A1A86A;
-  color:#1e00ff
-}
-/*  */
+
+
 .image img{
- 
-  /*  */
   position:relative;
   top:-15vh;
   right:5vh;
@@ -222,7 +172,7 @@ z-index: 999;
   font-family: "Matemasie", sans-serif;
   color:#ffffff;
   position: relative;
-  bottom: 100vh;
+  bottom: 103vh;
   left: 141.7vh;
   border: 2px solid#bd8b8d;
   border-radius: 100em;
@@ -250,7 +200,7 @@ z-index: 999;
   font-family: "Matemasie", sans-serif;
   color:#fefefe;
   position: relative;
-  top: -93vh;
+  top: -96vh;
   left: 140.5vh;
   border: 2px solid #757b4c;
   border-radius: 100em;
@@ -278,7 +228,7 @@ z-index: 999;
   font-family: "Matemasie", sans-serif;
   color:#ffffff;
   position: relative;
-  top: -85vh;
+  top: -88vh;
   left:140.7vh;
   border: 2px solid#b89819;
   border-radius: 100em;
@@ -306,7 +256,7 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   font-family: "Matemasie", sans-serif;
   color:#fcfcfc;
   position: relative;
-  bottom:78vh;
+  bottom:80vh;
   left: 148.6vh;
   border: 2px solid #6e9cbc;
   border-radius: 100em;
@@ -334,7 +284,7 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   font-family: "Matemasie", sans-serif;
   color:#fafafa;
   position: relative;
-  top:-72vh;
+  top:-74vh;
   left: 142.5vh;
   border: 2px solid #b15055;
   border-radius: 100em;
