@@ -7,9 +7,11 @@ body{
   justify-content: center;
   align-items: center;
   background-color: #c8eace;
-  /* position: fixed; */
+  position: fixed;
  
 }
+
+
 .header{
   margin: -100vh auto;
   
@@ -20,7 +22,7 @@ img{
 }
 .ring{
   position: relative;
-  bottom:-3vh;
+  bottom:-1vh;
   left:-6vh;
   background-blend-mode: overlay;
 }
@@ -28,11 +30,13 @@ img{
 #bkg{
   background-color: #EACBC8;
   background-image: linear-gradient(90deg, #aa67c280 20px, transparent 20px), linear-gradient(#aa67c280 20px, transparent 20px);
-  background-position: 10px;
   background-size: 45px 45px;
   border:5px solid purple;
   border-radius: 10%;
   box-shadow: rgba(240, 46, 170, 0.4) 30px 0px, rgba(240, 46, 170, 0.3) 60px 0px, rgba(240, 46, 169, 0.372) 70px 0px, rgba(240, 46, 170, 0.1) 80px 0px, rgba(240, 46, 170, 0.05) 90px 0px;
+  height:97vh;
+  align-items: center;
+  z-index: -1;
 }
 
 h1{
@@ -71,36 +75,39 @@ margin: 0 auto;
   font-size: 1em;
   font-family: "Matemasie", sans-serif;
   color:#ffffff;
-  position: relative;
+  position: absolute;
   border: 2px solid #b15055;
   border-radius: 100em;
-  top: 23vh;
-  left:5vh;
+  top: 47vh;
+  left:-5vh;
   padding: 10px 25px;
   margin-left: 18vh;
   text-align: center;
   background-color: #DF696E;
   /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
   transition-duration: 0.3s;
+  z-index: 999;
     
 }
 .btn1:active{  
-box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
-  transform: translateY(4px);
+/* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
+  /* transform: translateY(4px); */
   opacity: 0.5;
+  z-index: 999;
 }
 .btn1:hover{
   cursor: pointer;
   background-color: rgb(213, 168, 254);
   border-color: #83109b;
+  z-index: 999;
 }
 .btn2{
   font-size: 1em;
   font-family: "Matemasie", sans-serif;
   color:#ffffff;
   position: relative;
-  bottom: 13vh;
-  left: 15vh;
+  bottom: -26.7vh;
+  left: 17vh;
   border: 2px solid#bd8b8d;
   border-radius: 100em;
   padding: 10px 25px;
@@ -109,25 +116,27 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   background-color: #FEC2C4;
   /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
   transition-duration: 0.3s;
-    
+    z-index: 999;
 }
 .btn2:active{  
-box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
-  transform: translateY(4px);
+/* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
+  /* transform: translateY(4px); */
   opacity: 0.5;
+  z-index: 999;
 }
 .btn2:hover{
   cursor: pointer;
   background-color: rgb(213, 168, 254);
   border-color: #83109b;
+  z-index: 999;
 }
 .btn3{
   font-size: 1em;
   font-family: "Matemasie", sans-serif;
   color:#fefefe;
   position: relative;
-  top: -50vh;
-  left: 27vh;
+  top: -10.5vh;
+  left: 30vh;
   border: 2px solid #757b4c;
   border-radius: 100em;
   padding: 10px 25px;
@@ -139,8 +148,8 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
     
 }
 .btn3:active{  
-box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
-  transform: translateY(4px);
+/* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  transform: translateY(4px); */
   opacity: 0.5;
 }
 .btn3:hover{
@@ -153,8 +162,8 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   font-family: "Matemasie", sans-serif;
   color:#ffffff;
   position: relative;
-  top: -87.1vh;
-  left:52vh;
+  top: -48.8vh;
+  left:44vh;
   border: 2px solid#b89819;
   border-radius: 100em;
   padding: 10px 25px;
@@ -163,7 +172,7 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   background-color: #E0BB22;
   /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
   transition-duration: 0.3s;
-    
+    z-index: 999;
 }
 .btn4:active{  
 box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
@@ -180,8 +189,8 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   font-family: "Matemasie", sans-serif;
   color:#fcfcfc;
   position: relative;
-  bottom:-24.9vh;
-  left: 33vh;
+  bottom:83.6vh;
+  left: 62vh;
   border: 2px solid #6e9cbc;
   border-radius: 100em;
   padding: 10px 25px;
@@ -207,8 +216,8 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   font-family: "Matemasie", sans-serif;
   color:#fafafa;
   position: relative;
-  top:-7vh;
-  left: 53vh;
+  top:32.7vh;
+  left: 59vh;
   border: 2px solid #b15055;
   border-radius: 100em;
   padding: 10px 25px;
@@ -231,3 +240,31 @@ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, r
   border-color: #83109b;
 }
 
+
+
+.spinningFlower {
+  position: relative;
+  left: 15vh;
+  bottom: 95vh;
+ z-index: 0;
+  
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(369deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
